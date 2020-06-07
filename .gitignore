@@ -10,6 +10,8 @@
 
 # production
 /dist
+
+# files
 package-lock.json
 
 # misc
