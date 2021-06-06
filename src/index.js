@@ -1,8 +1,14 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 const App = () => {
-    return <div>Hello World!</div>;
+  const greating = 'Hello World!';
+
+  return (
+    <div>
+      {greating}
+    </div>
+  );
 };
 
-ReactDOM.render(<App />, document.getElementById("app"));
+ReactDOM.render(<App />, document.getElementById('app'));
