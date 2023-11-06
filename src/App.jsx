@@ -1,14 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import './style/index.scss';
 
-const App = () => {
+function App() {
   const greating = 'Hello World!';
-
   return (
     <div>
       {greating}
     </div>
   );
-};
+}
 
-ReactDOM.render(<App />, document.getElementById('app'));
+export default App;
