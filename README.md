@@ -1,2 +1,2 @@
-# reactWebpack
-Webpack
+# Webpack
+Webpack 5
